@@ -114,4 +114,4 @@ python run_sql.py         # prints the result of every SQL query
 
 ## 9. Author
 
-[Your Name] · bundit.sutti0@gmail.com · [LinkedIn URL]
+[Jeeraphat Suttitheeravut] · jeeraphat.sutti@gmail.com · [www.linkedin.com/in/jeeraphat-suttitheeravut-0281b93a6]
