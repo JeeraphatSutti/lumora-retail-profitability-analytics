@@ -1,0 +1,16 @@
+table,issue,rows_affected
+products,inconsistent category names,29
+products,missing brand,14
+customers,duplicate rows,150
+customers,inconsistent gender labels,10969
+customers,missing or invalid birth_date,4326
+customers,missing province,1562
+orders,duplicate rows,1062
+orders,order_date not in YYYY-MM-DD format,47763
+orders,inconsistent channel casing,2607
+orders,missing customer_id on online orders,465
+order_items,duplicate rows,1148
+order_items,negative unit_price,685
+order_items,quantity = 0,496
+order_items,missing unit_cost,1750
+returns,missing return_reason,809

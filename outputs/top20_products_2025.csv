@@ -1,0 +1,21 @@
+product_id,product_name,category,net_sales,gross_profit,gm_pct,orders,aov,discount_rate,low_margin
+P00091,Lumora Home Air Fryer V83,Home Appliances,8754209.77,741925.33,0.0848,1058.0,8274.3003,0.04,True
+P00001,Pixelon Smartphone J88,Electronics,6121491.48,483845.09,0.079,848.0,7218.74,0.0371,True
+P00003,Nexora Laptop G10,Electronics,3006853.7,284110.08,0.0945,291.0,10332.8306,0.038,True
+P00092,HomeBright Rice Cooker C34,Home Appliances,2828624.12,198958.6,0.0703,502.0,5634.7094,0.0353,True
+P00004,Lumora Tech Headphones Y31,Electronics,2665528.9,491293.74,0.1843,223.0,11953.0444,0.0395,False
+P00801,FitCore Yoga Mat H38,Sports & Outdoor,2061217.25,1205554.67,0.5849,828.0,2489.3928,0.0346,False
+P00094,HomeBright Air Purifier T37,Home Appliances,2022465.97,664780.02,0.3287,242.0,8357.2974,0.0361,False
+P00481,StrideOn T-Shirt N33,Fashion,1355593.94,636666.26,0.4697,1471.0,921.5458,0.0346,False
+P00341,Lumora Beauty Sunscreen Y72,Beauty & Personal Care,1316921.3,109799.85,0.0834,1900.0,693.1165,0.0343,True
+P00031,SonicPeak Laptop K10,Electronics,1247383.78,165069.25,0.1323,36.0,34649.5494,0.0369,False
+P00093,AeroLife Electric Fan I53,Home Appliances,1197760.86,79945.64,0.0667,363.0,3299.6167,0.0376,True
+P00181,CasaNest Bedding I91,Home & Living,1111911.74,523877.875,0.4712,1598.0,695.8146,0.0328,False
+P00631,ThaiTaste Snacks X79,Grocery & FMCG,1055464.42,92800.31,0.0879,2452.0,430.4504,0.0351,True
+P00014,Nexora Bluetooth Speaker H21,Electronics,1052539.96,245314.5,0.2331,70.0,15036.2851,0.0256,False
+P00011,Nexora Headphones Z54,Electronics,1025295.44,181475.62,0.177,84.0,12205.8981,0.0299,False
+P00002,VoltEdge Tablet T76,Electronics,966175.4,93635.38,0.0969,424.0,2278.7156,0.0421,True
+P00007,SonicPeak Bluetooth Speaker E42,Electronics,815919.11,108810.32,0.1334,135.0,6043.8453,0.0284,False
+P00012,Pixelon Smartwatch L22,Electronics,801319.64,200898.1,0.2507,77.0,10406.7486,0.0387,False
+P00095,HomeBright Vacuum Cleaner T90,Home Appliances,760162.51,205744.68,0.2707,233.0,3262.5,0.0333,False
+P00096,HomeBright Microwave L83,Home Appliances,717618.24,226748.99,0.316,164.0,4375.721,0.0358,False

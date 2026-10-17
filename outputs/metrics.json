@@ -1,0 +1,86 @@
+{
+ "net_sales_2022": 83670332.86,
+ "net_sales_2025": 92902054.59,
+ "sales_growth_22_25": 0.1103,
+ "gross_profit_2022": 20893644.45,
+ "gross_profit_2025": 25677751.39,
+ "gp_change_22_25": 0.229,
+ "gm_2016": 0.2727,
+ "gm_2022": 0.2497,
+ "gm_2025": 0.2764,
+ "online_share_2016": 0.0721,
+ "online_share_2019": 0.1771,
+ "online_share_2020": 0.4017,
+ "online_share_2025": 0.5675,
+ "total_net_sales_10y": 712335053.44,
+ "total_orders_10y": 261950.0,
+ "gm_2017": 0.2744,
+ "gp_lost_at_2022_low": 2063357.8017,
+ "gp_gained_from_recovery_2025": 2478817.7784,
+ "elec_appl_share_2016": 0.5117,
+ "elec_appl_share_2022": 0.5735,
+ "elec_appl_share_2025": 0.6089,
+ "discount_rate_2022": 0.0226,
+ "discount_rate_2025": 0.0354,
+ "extra_discount_cost_2025": 1233482.4515,
+ "marketplace_fees_2022": 1053432.61,
+ "marketplace_fees_2025": 2833808.77,
+ "december_index": 1.5293,
+ "february_index": 0.7762,
+ "1111_x_2016": 1.0344,
+ "1111_x_2025": 2.8796,
+ "covid_store_change": -0.6393,
+ "covid_online_change": 3.1221,
+ "marketplace_share_2025": 0.265,
+ "marketplace_fee_pct_2025": 0.1151,
+ "low_margin_skus_in_top20": 8.0,
+ "low_margin_sales": 25247501.05,
+ "low_margin_gp": 2085020.28,
+ "low_margin_sales_share": 0.2718,
+ "elec_appl_sales_share_2025": 0.6089,
+ "elec_appl_gp_share_2025": 0.367,
+ "top20_customer_share": 0.6706,
+ "rfm": {
+  "Champions": {
+   "customers": 4620.0,
+   "customer_share": 0.2083,
+   "revenue_share": 0.4812
+  },
+  "Loyal": {
+   "customers": 4183.0,
+   "customer_share": 0.1886,
+   "revenue_share": 0.202
+  },
+  "At Risk": {
+   "customers": 4504.0,
+   "customer_share": 0.2031,
+   "revenue_share": 0.1806
+  },
+  "Lost": {
+   "customers": 6014.0,
+   "customer_share": 0.2712,
+   "revenue_share": 0.091
+  },
+  "New / Recent": {
+   "customers": 2858.0,
+   "customer_share": 0.1289,
+   "revenue_share": 0.0451
+  }
+ },
+ "year1_retention_2016_2019": 0.4291,
+ "year1_retention_2023_2024": 0.3039,
+ "gm_no_promo": 0.2872,
+ "gm_mega_sale": 0.0605,
+ "discount_mega_sale": 0.2269,
+ "forecast_growth_rate": 0.0355,
+ "forecast_2026_total": 96200336.8713,
+ "forecast_mape_2025_test": 0.0763,
+ "recommendations": {
+  "R1_discount_back_to_2022": 1233482.4515,
+  "R2_reprice_low_margin_skus": 757425.0315,
+  "R3_move_20pct_marketplace_to_app": 566761.754,
+  "R4_win_back_10pct_at_risk": 342770.1898,
+  "total": 2900439.4267
+ },
+ "at_risk_customers": 4504.0
+}
