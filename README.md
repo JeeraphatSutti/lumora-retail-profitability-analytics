@@ -57,6 +57,7 @@ The raw data contains deliberate quality problems: duplicate rows, four differen
 | 3. Answer questions in SQL | SQL (DuckDB) | `sql/analysis_queries.sql`, `run_sql.py` |
 | 4. Analysis & charts | Python (pandas, matplotlib) | `analyze.py` → `outputs/`, `images/` |
 | 5. Dashboard | Streamlit | `app.py` |
+| 6. Excel version | Excel (SUMIFS, INDEX/MATCH, PivotTable, Power Query) | `excel/` |
 
 Analysis methods: KPI trends, category and product margin, Pareto (top 20% customers), RFM segmentation, yearly cohort retention, promotion comparison, and a simple forecast (2025 monthly sales × average growth of the last 3 years; tested on 2025 with an error of 7.6%).
 
@@ -65,6 +66,24 @@ Analysis methods: KPI trends, category and product margin, Pareto (top 20% custo
 ![Dashboard](images/dashboard.png)
 
 A single-page dashboard with an iOS-inspired design (grouped white cards, segmented controls, list rows). Filters: year, channel (All / Store / Online) and category. Shows KPI cards vs the previous year, sales and margin trends, monthly sales, a channel share bar, categories and the top 10 products with their margins, and the top-20% customer share. Charts use Altair, which comes with Streamlit.
+
+### Excel version (for non-technical users)
+
+![Excel dashboard - KPI cards and charts](excel/excel_dashboard1.png)
+
+![Excel dashboard - margin bridge and recommendations](excel/excel_dashboard2.png)
+
+The same analysis is also available as an Excel workbook, [`excel/Lumora_Retail_Margin_Analysis.xlsx`](excel/Lumora_Retail_Margin_Analysis.xlsx), for business users who work in Excel every day. Nothing needs to be installed.
+
+- **Dashboard:** a year dropdown, 4 KPI cards compared with the previous year, a gross margin trend, gross profit by category, a margin bridge (waterfall) for 2017 → 2022 → 2025, and 4 recommendations with their ฿ impact.
+- **Formulas, not pasted values:** every number is a `SUMIFS` / `INDEX-MATCH` formula on an Excel Table (`tblSales`, 6,160 rows: month × category × channel × discount flag). When new data is added, everything updates.
+- **Margin bridge:** splits the change in gross margin into supplier cost & pricing, product mix and discounts. The three parts add up exactly to the total change.
+- **Editable assumptions:** recommendation inputs are in yellow cells (price increase %, win-back rate, etc.).
+- **PivotTable with slicers** (Channel, Has Discount) for self-service exploration.
+- **Power Query (M) code** to rebuild the table from the raw CSV files, including the 4 date formats.
+- **Built-in checks:** gross margin for 2017, 2022 and 2025 is compared with the Python results. All checks show "OK".
+
+![Excel PivotTable](excel/excel_pivot.png)
 
 ## 6. How to Run
 
@@ -99,6 +118,7 @@ python run_sql.py         # prints the result of every SQL query
 ├── analyze.py                # analysis + charts
 ├── run_sql.py                # run the SQL file on the clean data
 ├── app.py                    # Streamlit dashboard
+├── excel/                    # Excel workbook + Power Query code
 ├── sql/analysis_queries.sql  # 9 business questions in SQL
 ├── docs/data_dictionary.md
 ├── images/                   # charts used in this README
